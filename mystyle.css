@@ -1,0 +1,40 @@
+#main {
+      background-color:#F8F8FF;
+      padding:0px;
+      border:5px solid #708090;
+      margin:100px;
+     
+}
+#header {
+    background-color:grey;
+    line-height:15px;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+
+
+#leftCol {
+    background-color:#eeeeee;
+    height:auto;
+    width:450px;
+    float:left;
+    margin:20px;	      
+}
+
+#rightCol {
+    background-color:#eeeeee;
+    height:auto;
+    width:450px;
+    float:left;
+    margin:20px;	      
+}
+
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+
