@@ -6,10 +6,14 @@
 <script src="js/populatePage.js"></script>
 <script>
 $(document).ready(function(){
-addHeader()
-$('#main').append('<div id="leftCol"></div>');
-$('#main').append('<div id="rightCol"></div>');
-$('#main').append('<div id="footer">THIS IS FOOTER</div>');
+    addHeader()
+    $('#main').append('<div id="leftCol" class="leftCls"></div>');
+    $('#main').append('<div id="rightCol" class="rightCls"></div>');
+    addLeftItems()
+    addRightItems()
+    $('#main').append('<div id="footer">THIS IS FOOTER</div>');
+
+
 });
 </script>
 </head>
