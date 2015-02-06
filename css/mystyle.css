@@ -61,6 +61,15 @@
     border-radius:3px;
     color:#444;
 }
+
+#box{
+    border:1px solid;
+    background-color:#eeeeee;
+    min-height:200px;
+    width:970px;
+    float:left;
+    margin:20px;
+}
 #buttons{
     background-color:#F8F8FF;
     padding:5px;
@@ -82,7 +91,17 @@
    padding:5px;	 	 
 }
 
-
+.boxcls{
+    border: 1px solid;
+    font-family:"Helvetica", Times, serif;
+    width:100px;
+    margin:10px;
+    font-size:13px;
+    padding:20px;
+    border-radius:3px;
+    color:#444;
+    display:inline-block;
+}
 
 
 .container{
