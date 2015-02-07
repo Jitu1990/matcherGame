@@ -101,6 +101,7 @@
     border-radius:3px;
     color:#444;
     display:inline-block;
+    cursor:'pointer';
 }
 
 

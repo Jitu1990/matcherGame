@@ -6,21 +6,21 @@
 <script src="js/jquery-1.11.2.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>
 <script src="js/populatePage.js"></script>
+
 <script>
 $(document).ready(function(){
-    addHeader()
-    $('#main').append('<div id="leftCol" class="leftCls"></div>');
-    $('#main').append('<div id="rightCol" class="rightCls"></div>');
-    addLeftItems()
-    addRightItems()
+    addHeader();
+
+    addLeftItems();
+
+    addRightItems();
+
     toDoList();
-    $('#main').append('<div id="footer">THIS IS FOOTER</div>');
-    //addButton();
-    //toDoList();
+    //$('#buttons').before('<div id="box"></div>');
+    $('#main').append('<div id="footer">Header Labs India Ltd.</div>');
+
     Left_rightOp();
     Right_leftOp();
-
-
 
 });
 </script>
